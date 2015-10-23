@@ -1,1 +1,1 @@
-# hive-mongodb
+Connecting Apache Hive to MongoDB
