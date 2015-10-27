@@ -1,4 +1,5 @@
-Connecting Apache Hive to MongoDB
+Connecting Apache Hive to MongoDB 
+=========================
 
 1. Deploy MongoDB libraries to all server nodes running Hive
 2. Create dummy table in MongoDB
