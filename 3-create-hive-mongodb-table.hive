@@ -1,4 +1,4 @@
-Create hive table reflecting connection to MongoDB table
+-- Create hive table reflecting connection to MongoDB table
 
 DROP TABLE IF EXISTS hive_mongo_table;
 
