@@ -1,0 +1,3 @@
+-- Insert data into Hive and verify update in MongoDB
+
+INSERT INTO TABLE hive_mongo_table SELECT reflect("java.util.UUID", "randomUUID"), from_unixtime(unix_timestamp() - 18900), from_unixtime(unix_timestamp() - 18000), avg(data_values) FROM data_table;
