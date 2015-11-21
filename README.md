@@ -7,9 +7,9 @@ Connecting Apache Hive to MongoDB
 4. Insert data into Hive and verify update in MongoDB
 
 <b>Component Versions: </b><br>
-CDH – 5.4.8<br>
-Hive – 1.1.0<br>
-MongoDB – 3.0.5<br>
+CDH 5.4.8<br>
+Hive 1.1.0<br>
+MongoDB 3.0.5<br>
 CentOS 6.7 <br>
 <br>
 <b>Library Versions: </b><br>
