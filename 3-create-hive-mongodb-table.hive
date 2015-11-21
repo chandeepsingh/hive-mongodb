@@ -1,1 +1,14 @@
 Create hive table reflecting connection to MongoDB table
+
+DROP TABLE IF EXISTS hive_mongo_table;
+
+CREATE EXTERNAL TABLE hive_mongo_table
+( 
+  id STRING,
+  start_time STRING,
+  end_time STRING,
+  local_value STRING
+)
+STORED BY 'com.mongodb.hadoop.hive.MongoStorageHandler'
+WITH SERDEPROPERTIES('mongo.columns.mapping'='{"id":"_id","start_time":"start_time","end_time":"end_time","local_value":"value"}')
+TBLPROPERTIES('mongo.uri'='mongodb://<mongo-host>:27017/iot_data.something_new');
