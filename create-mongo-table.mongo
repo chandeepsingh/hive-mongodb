@@ -1,0 +1,10 @@
+# Create table in MongoDB
+
+use test
+
+db.createCollection("something")
+
+db.something_new.insert({start_time: '0', end_time: '0', value: '0'})
+
+db.something_new.find().pretty()
+
