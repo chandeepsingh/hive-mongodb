@@ -11,4 +11,4 @@ CREATE EXTERNAL TABLE hive_mongo_table
 )
 STORED BY 'com.mongodb.hadoop.hive.MongoStorageHandler'
 WITH SERDEPROPERTIES('mongo.columns.mapping'='{"id":"_id","start_time":"start_time","end_time":"end_time","local_value":"value"}')
-TBLPROPERTIES('mongo.uri'='mongodb://<mongo-host>:27017/test.some_collection');
+TBLPROPERTIES('mongo.uri'='mongodb://<mongodb-host>:27017/test.some_collection');
