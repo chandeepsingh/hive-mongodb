@@ -7,4 +7,3 @@ db.createCollection("some_collection")
 db.some_collection.insert({start_time: '0', end_time: '0', value: '0'})
 
 db.some_collection.find().pretty()
-
