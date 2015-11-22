@@ -23,7 +23,3 @@ ssh root@<all hosts> ln -s /opt/cloudera/parcels/CDH/jars/mongo-hadoop/mongodb-d
 ssh root@<all hosts> ln -s /opt/cloudera/parcels/CDH/jars/mongo-hadoop/mongo-hadoop-core-1.4.0.jar /opt/cloudera/parcels/CDH/lib/hadoop/lib/mongo-hadoop-core-1.4.0.jar
 ssh root@<all hosts> ln -s /opt/cloudera/parcels/CDH/jars/mongo-hadoop/mongo-hadoop-hive-1.4.0.jar /opt/cloudera/parcels/CDH/lib/hadoop/lib/mongo-hadoop-hive-1.4.0.jar
 ssh root@<all hosts> ln -s /opt/cloudera/parcels/CDH/jars/mongo-hadoop/mongo-java-driver-3.0.2.jar /opt/cloudera/parcels/CDH/lib/hadoop/lib/mongo-java-driver-3.0.2.jar
-
-
-
-
